@@ -28,42 +28,43 @@ def SlowPrint(txt):
     print()
 print(f'''
 
-{green}__      ___         _                       {red} _  ___ _ _
-{green}\ \    / / |_  __ _| |_ ___ __ _ _ __ _ __  {red}| |/ (_) | |___ _ _
-{green} \ \/\/ /| ' \/ _` |  _(_-</ _` | '_ \ '_ \ {red}| ' <| | | / -_) '_|
-{green}  \_/\_/ |_||_\__,_|\__/__/\__,_| .__/ .__/ {red}|_|\_\_|_|_\___|_|
-{green}                                |_|  |_|
+{green}__      ___         _                       {red} __   __   __         ______     _____  
+{green}\ \    / / |_  __ _| |_ ___ __ _ _ __ _ __  {red}/\ \ / /  /\ \       /\  ___\   /\  __-.  
+{green} \ \/\/ /| ' \/ _` |  _(_-</ _` | '_ \ '_ \ {red}\ \ \' /  \ \ \____  \ \  __\   \ \ \/\ \ 
+{green}  \_/\_/ |_||_\__,_|\__/__/\__,_| .__/ .__/ {red} \ \__/    \ \_____\  \ \_____\  \ \____-
+{green}                                |_|  |_|    {red}  \/_/      \/_____\   \ /_____/   \/____/ 
 
-{red}[!]{green} By Bl4ckwin
-{red}[!]{green} Version 1.0
+{blue}[!]{yellow} By Soorya Puthran
+{blue}[!]{yellow} Version 2.0
 ''')
 sleep(0.1)
-mail = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@YOUR-EMAIL{red}]
+mail = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@YOUR-EMAIL{yellow}]
 └──╼{white} 卍 ''')
-passwd = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@PASSWORD{red}]
+passwd = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@PASSWORD{yellow}]
 └──╼{white} 卍 ''')
-target = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@TARGET-NUMBER{red}]
+target = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@TARGET-NUMBER{yellow}]
 └──╼{white} 卍 ''')
-count = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-COUNT{red}]
+count = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-COUNT{yellow}]
 └──╼{white} 卍 ''')
 sleep(0.3)
 print('''
 
-[1] - Immoral Actions
-[2] - Stolen Account
+[1] - ban whatsapp 1
+[2] - ban whatsapp 2
 
 ''')
 report_type = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-TYPE{red}]
 └──╼{white} 卍 ''')
 msg1 = ('this user is sharing immoral content & pornographic videos , please ban it as soon as possible , phone number : '+white+str(target))
-msg2 = ('This user shares ISIS beliefs & many horrible videos of killing the humans , please block it as soon as possible , phone number : '+white+str(target))
+msg2 = ('This user shares ISIS beliefs & many horrible videos of killing the humans , please ban it as soon as possible , phone number : '+white+str(target))
 msg3 = ('this user is sharing people personal information & data in chats amd groups, please ban it as soon as possible, phone number is : '+white+str(target))
-msg4 = (f'''
+msg4 = ('Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp,meu numero:'+white+str(target))
+msg5 = (f''''
 This number ( {target} ) account has been stolen. I want to go into my WhatsApp account , but the SIM card is not in front of me to get the code number and enter my account , Please help me. I had many friends and acquaintances in this account. Please return my account as soon as possible
 
 Thank you''')
-msg_stolen = ['msg4']
-msg_immoral = [msg1,msg2,msg3]
+msg_stolen = ['msg5']
+msg_immoral = [msg1,msg2,msg3,msg4]
 sleep(0.3)
 SlowPrint(f'{lightgreen}\n[!] Starting ...\n')
 try:
@@ -72,7 +73,7 @@ try:
     email['to'] = 'support@support.whatsapp.com'
     if report_type == '1':
         email['subject'] = 'Immoral Actions Report'
-    elif report_type == '1':
+    elif report_type == '2':
     	email['subject'] = 'Stolen Account Report'
     if report_type == '1':
         email.set_content(choice(msg_immoral))
