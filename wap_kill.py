@@ -16,6 +16,7 @@ green = Fore.GREEN
 white = Fore.WHITE
 cyan = Fore.CYAN
 blue = Fore.BLUE
+yellow = Fore.YELLOW
 lightgreen = Fore.LIGHTGREEN_EX
 if name == 'nt':
 	system('cls')
