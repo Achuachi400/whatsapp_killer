@@ -56,17 +56,17 @@ print('''
 ''')
 report_type = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-TYPE{red}]
 └──╼{white} 卍 ''')
-msg1 = ('this user is sharing immoral content & pornographic videos , please ban it as soon as possible , phone number : '+white+str(target))
-msg2 = ('This user shares ISIS beliefs & many horrible videos of killing the humans , please ban it as soon as possible , phone number : '+white+str(target))
-msg3 = ('this user is sharing people personal information & data in chats amd groups, please ban it as soon as possible, phone number is : '+white+str(target))
+msg1 = ('this user is sharing immoral content & pornographic videos , please ban it as soon as possible , phone number :'+white+str(target))
+msg2 = ('This user shares ISIS beliefs & many horrible videos of killing the humans , please ban it as soon as possible , phone number :'+white+str(target))
+msg3 = ('this user is sharing people personal information & data in chats amd groups, please ban it as soon as possible, phone number is :'+white+str(target))
 msg4 = ('Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp,meu numero:'+white+str(target))
 msg5 = (f''''
 This number ( {target} ) account has been stolen. I want to go into my WhatsApp account , but the SIM card is not in front of me to get the code number and enter my account , Please help me. I had many friends and acquaintances in this account. Please return my account as soon as possible
 
 Thank you''')
 msg_stolen = ['msg5']
-msg_immoral = [msg1,msg2,msg3,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4]
-sleep(0.3)
+msg_immoral = [msg1,msg2,msg3,msg4,]
+sleep(10.5)
 SlowPrint(f'{lightgreen}\n[!] Starting ..........\n')
 try:
     email = EmailMessage()
