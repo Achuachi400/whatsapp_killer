@@ -36,18 +36,18 @@ print(f'''
 {green}                                |_|  |_|    {red}  \/_/      \/_____\   \ /_____/   \/____/ 
 
 {blue}[!]{yellow} By Soorya Puthran
-{blue}[!]{yellow} Version 2.0
+{blue}[!]{yellow} Version 2.1
 ''')
 sleep(0.1)
-mail = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@YOUR-EMAIL{yellow}]
+mail = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@YOUR-EMAIL{red}]
 └──╼{white} 卍 ''')
-passwd = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@PASSWORD{yellow}]
+passwd = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@PASSWORD{red}]
 └──╼{white} 卍 ''')
-target = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@TARGET-NUMBER{yellow}]
+target = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@TARGET-NUMBER{red}]
 └──╼{white} 卍 ''')
-count = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-COUNT{yellow}]
+count = input(f'''{red}┌─[{green}WHATSAPP-KILLER{blue}~{white}@REPORT-COUNT{red}]
 └──╼{white} 卍 ''')
-sleep(0.3)
+sleep(0.9)
 print('''
 
 [1] - ban whatsapp 1
@@ -65,9 +65,9 @@ This number ( {target} ) account has been stolen. I want to go into my WhatsApp 
 
 Thank you''')
 msg_stolen = ['msg5']
-msg_immoral = [msg1,msg2,msg3,msg4]
+msg_immoral = [msg1,msg2,msg3,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4,msg4]
 sleep(0.3)
-SlowPrint(f'{lightgreen}\n[!] Starting ...\n')
+SlowPrint(f'{lightgreen}\n[!] Starting ..........\n')
 try:
     email = EmailMessage()
     email['from'] = mail
